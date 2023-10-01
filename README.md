@@ -40,13 +40,13 @@ Clone kickstart.nvim:
 
 ```sh
 # on Linux and Mac
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/aolasz/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 
 ```
 # on Windows
-git clone https://github.com/nvim-lua/kickstart.nvim.git %userprofile%\AppData\Local\nvim\ 
+git clone https://github.com/aolasz/kickstart.nvim.git %userprofile%\AppData\Local\nvim\ 
 ```
 
 ### Post Installation
@@ -114,7 +114,7 @@ return {
   "nvim-neo-tree/neo-tree.nvim",
   version = "*",
   dependencies = {
-    "nvim-lua/plenary.nvim",
+    "aolasz/plenary.nvim",
     "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
     "MunifTanjim/nui.nvim",
   },
